@@ -1,12 +1,12 @@
 export default {
+  widgetOpen: false,
   fontColor: null,
-  fontSizeAdjustment: null,
-  lineHeight: null,
-  letterSpacing: null,
-  highlightLinks: null,
-  textAlignment: null,
-  cursorColor: null,
-  cursorSize: null,
+  fontSizeAdjustment: 0,
+  lineHeight: 0,
+  letterSpacing: 0,
   titleBackgroundColor: null,
+  highlightLinks: false,
   hideImages: false,
-}
+  textAlignment: 'initial',
+  monochrome: false,
+};

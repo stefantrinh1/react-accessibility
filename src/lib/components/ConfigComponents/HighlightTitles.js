@@ -1,21 +1,22 @@
 import React, { useContext } from 'react';
 import Toggle from './Toggle';
 import { store } from '../Context/Store';
-import styled from 'styled-components';
 import SettingsBox from './SettingsBox';
 
-export default function HideImages() {
+export default function HighlightLinks() {
   const { globalState, dispatch } = useContext(store);
 
   return (
-    <SettingsBox title={'Hide Images'}>
+    <SettingsBox title={'Highlight Titles'}>
       <Toggle
         onChange={() =>
           dispatch({
-            type: globalState.hideImages ? 'UNHIDE_IMAGES' : 'HIDE_IMAGES',
+            type: globalState.highlightTitles
+              ? 'UNSET_HIGHLIGHT_TITLES'
+              : 'SET_HIGHLIGHT_TITLES',
           })
         }
-        checked={globalState.hideImages}
+        checked={globalState.highlightTitles}
       />
     </SettingsBox>
   );
