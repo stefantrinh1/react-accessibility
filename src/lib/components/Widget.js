@@ -80,7 +80,7 @@ const WidgetBox = styled.div`
   min-width: 280px;
   height: 400px;
   max-height: 400px;
-  max-width: 400px;
+  max-width: 380px;
   overflow-y: scroll;
   overflow-x: hidden;
   border-radius: 10px;

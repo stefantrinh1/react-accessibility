@@ -5,6 +5,7 @@ export default (globalState) => {
     fontSizeAdjustment,
     lineHeight,
     titleColor,
+    textItalic,
     letterSpacing,
     textBold,
     textCase,
@@ -14,6 +15,8 @@ export default (globalState) => {
     hideImages,
     textAlignment,
     monochrome,
+    highContrast,
+    lowContrast,
   } = globalState;
 
   return `
@@ -34,6 +37,8 @@ export default (globalState) => {
         ${
           textCase !== 'initial' ? `text-transform:${textCase} !important;` : ''
         }
+        ${textItalic ? `font-style:italic !important;` : ''}
+
     }
     img {
         ${hideImages ? `display:none !important;` : ''}
@@ -80,7 +85,8 @@ export default (globalState) => {
             ? `letter-spacing:${letterSpacing / 10}px !important;`
             : ''
         }
-
+        ${highContrast ? `filter: contrast(2) !important;` : ''}
+        ${lowContrast ? `filter: contrast(0.5) !important;` : ''}
         
     }
 
@@ -99,7 +105,8 @@ export default (globalState) => {
             ? `letter-spacing:${letterSpacing / 10}px !important;`
             : ''
         }
-        
+        ${highContrast ? `filter: contrast(2) !important;` : ''}
+        ${lowContrast ? `filter: contrast(0.5) !important;` : ''}
 
     }
     

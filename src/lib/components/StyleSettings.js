@@ -12,6 +12,10 @@ import Monochrome from './ConfigComponents/Monochrome';
 import HighlightTitles from './ConfigComponents/HighlightTitles';
 import TextCase from './ConfigComponents/TextCase';
 import TitleColor from './ConfigComponents/TitleColor';
+import FontButtons from './ConfigComponents/FontButtons';
+import HighContrast from './ConfigComponents/HighContrast';
+import LowContrast from './ConfigComponents/LowContrast';
+
 export default function StyleSettings() {
   return (
     <Container>
@@ -22,6 +26,7 @@ export default function StyleSettings() {
         <LineHeight />
         <LetterSpacing />
         <TextCase />
+        <FontButtons />
       </InlineSection>
       <SectionTitle>Title Styles</SectionTitle>
       <InlineSection>
@@ -34,6 +39,8 @@ export default function StyleSettings() {
         <HighlightLinks />
         <HideImages />
         <Monochrome />
+        <HighContrast />
+        <LowContrast />
       </InlineSection>
     </Container>
   );
@@ -42,7 +49,7 @@ export default function StyleSettings() {
 const Container = styled.div`
   display: flex;
   flex-direction: column;
-  padding: 5px 20px 40px;
+  padding: 5px 20px 60px;
 `;
 
 const InlineSection = styled.div`

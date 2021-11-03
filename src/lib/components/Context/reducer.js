@@ -66,16 +66,18 @@ export default (state, action) => {
 
     // ? === BOLD Text ===
 
-    case 'SET_TEXT_BOLD':
+    case 'TOGGLE_BOLD':
       return {
         ...state,
-        textBold: true,
+        textBold: !state.textBold,
       };
 
-    case 'UNSET_TEXT_BOLD':
+    // ? === Italic Text ===
+
+    case 'TOGGLE_ITALIC':
       return {
         ...state,
-        textBold: false,
+        textItalic: !state.textItalic,
       };
 
     // ? === Uppercase  ===
@@ -84,6 +86,14 @@ export default (state, action) => {
       return {
         ...state,
         textCase: action.data,
+      };
+
+    // ? === Alignment  ===
+
+    case 'SET_TEXT_ALIGNMENT':
+      return {
+        ...state,
+        textAlignment: action.data,
       };
 
     // ? === Title Settings ===
@@ -152,6 +162,36 @@ export default (state, action) => {
       return {
         ...state,
         monochrome: false,
+      };
+
+    // ? === High Contrast  ===
+
+    case 'SET_HIGH_CONTRAST':
+      return {
+        ...state,
+        lowContrast: false,
+        highContrast: true,
+      };
+
+    case 'UNSET_HIGH_CONTRAST':
+      return {
+        ...state,
+        highContrast: false,
+      };
+
+    // ? === Low Contrast  ===
+
+    case 'SET_LOW_CONTRAST':
+      return {
+        ...state,
+        highContrast: false,
+        lowContrast: true,
+      };
+
+    case 'UNSET_LOW_CONTRAST':
+      return {
+        ...state,
+        lowContrast: false,
       };
 
     // ? === global settings ===

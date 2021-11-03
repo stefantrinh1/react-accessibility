@@ -1,4 +1,4 @@
-# accessbility-widget
+# React Accessbility
 
 Features
 

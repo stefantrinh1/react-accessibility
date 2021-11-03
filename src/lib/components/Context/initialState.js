@@ -8,14 +8,15 @@ export default {
   textBold: false,
   textCase: 'initial',
   textAlignment: 'initial',
+  textItalic: false,
   // == titles ==
   titleColor: false,
   titleBackgroundColor: null,
   highlightTitles: false,
-
   // == other settings ==
   highlightLinks: false,
   hideImages: false,
-
   monochrome: false,
+  highContrast: false,
+  lowContrast: false,
 };
