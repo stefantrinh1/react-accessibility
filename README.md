@@ -8,6 +8,9 @@ The widget allows users to change the UI design/styling across the website/app t
 
 i.e for users that are color blind, the widget will change text colors across the whole site.
 
+
+![Image of react-accessibility](https://res.cloudinary.com/dpakxm3nm/image/upload/v1635918690/react-accessibility/react-accessibility_wricvk.png)
+
 ## Features
 
 Change Font Colors
