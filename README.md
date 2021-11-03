@@ -39,5 +39,5 @@ import { AccessibilityWidget } from 'react-accessibility';
 ```
 
 ```
-    <AccessibilityWidget />
+<AccessibilityWidget />
 ```
