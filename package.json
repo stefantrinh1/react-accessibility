@@ -1,6 +1,6 @@
 {
   "name": "react-accessibility",
-  "version": "0.3.0",
+  "version": "0.6.0",
   "description": "An React Accessibility Widget that allows users to change sites visual changes",
   "author": "Stefan Trinh",
   "private": false,
@@ -17,14 +17,24 @@
     "dist",
     "README.md"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stefantrinh1/react-accessibility.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stefantrinh1/react-accessibility/issues"
+  },
+  "homepage": "https://www.react-accessibility-widget.netlify.app",
+  "peerDependencies": {
+    "react": ">= 16.8",
+    "react-dom": ">= 16.8"
+  },
   "dependencies": {
     "@babel/cli": "^7.16.0",
     "@babel/preset-env": "^7.16.0",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
     "react-dropdown": "^1.9.2",
     "react-scripts": "4.0.3",
     "react-switch": "^6.0.0",
