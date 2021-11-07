@@ -45,11 +45,21 @@ const CounterContainer = styled.div`
   padding: 0px 8px;
 `;
 const MinusButton = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
   :hover {
     color: purple;
   }
 `;
 const PlusButton = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
   :hover {
     color: purple;
   }
