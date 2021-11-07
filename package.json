@@ -1,6 +1,6 @@
 {
   "name": "react-accessibility",
-  "version": "0.13.0",
+  "version": "0.13.1",
   "description": "An React Accessibility Widget that allows users to change sites visual changes",
   "author": "Stefan Trinh",
   "private": false,
@@ -24,7 +24,7 @@
   "bugs": {
     "url": "https://github.com/stefantrinh1/react-accessibility/issues"
   },
-  "homepage": "https://www.react-accessibility-widget.netlify.app",
+  "homepage": "https://react-accessibility-widget.netlify.app",
   "peerDependencies": {
     "react": ">= 16.8",
     "react-dom": ">= 16.8"
