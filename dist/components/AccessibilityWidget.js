@@ -14,5 +14,5 @@ var _Store = require("./Context/Store");
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function AccessibilityWidget() {
-  return /*#__PURE__*/_react.default.createElement(_Store.ContextProvider, null, /*#__PURE__*/_react.default.createElement(_Widget.default, null));
+  return /*#__PURE__*/_react.default.createElement(_Store.ContextProvider, null, "hello");
 }

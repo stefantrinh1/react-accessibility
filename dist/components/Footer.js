@@ -38,6 +38,6 @@ function Footer(_ref) {
   }, "Reset Settings"));
 }
 
-const Container = _styledComponents.default.div(_templateObject || (_templateObject = _taggedTemplateLiteral(["\n  position: absolute;\n  bottom: 0px;\n  left: 0px;\n  width: 100%;\n  background-color: purple;\n  padding: 0.25rem;\n  box-sizing: border-box;\n  text-align: right;\n"])));
+const Container = _styledComponents.default.div(_templateObject || (_templateObject = _taggedTemplateLiteral(["\n  position: absolute;\n  bottom: 0px;\n  left: 0px;\n  width: 100%;\n  background-color: purple;\n  padding: 0.25rem;\n  box-sizing: border-box;\n"])));
 
-const Button = _styledComponents.default.button(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\n  border-radius: 50px;\n  background-color: black;\n  color: white;\n  border: none;\n  padding: 0.5rem 0.75rem;\n  font-size: 13px;\n  transition: all ease-in-out 0.5s;\n  :hover {\n    background: lightgrey;\n    color: purple;\n  }\n"])));
+const Button = _styledComponents.default.button(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\n  border-radius: 50px;\n  background-color: black;\n  color: white;\n  border: none;\n  padding: 0.5rem 0.75rem;\n  font-size: 13px;\n"])));
