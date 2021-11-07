@@ -42,8 +42,8 @@ const InnerContainer = styled.div`
 
 const Button = styled.div`
   position: fixed;
-  bottom: 10px;
-  right: 10px;
+  bottom: 20px;
+  right: 20px;
   background-color: #0e5eb1;
   color: white;
   padding: 10px;
@@ -57,10 +57,9 @@ const Button = styled.div`
 
 const WidgetContainer = styled.div`
   position: fixed;
-  bottom: 10px;
-  right: 10px;
+  bottom: 20px;
+  right: 20px;
   z-index: 9999;
-  max-width: 95%;
 `;
 
 const CloseButton = styled(CloseIcon)`

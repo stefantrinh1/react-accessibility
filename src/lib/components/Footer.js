@@ -27,7 +27,6 @@ const Container = styled.div`
   background-color: purple;
   padding: 0.25rem;
   box-sizing: border-box;
-  text-align: right;
 `;
 
 const Button = styled.button`
@@ -37,9 +36,4 @@ const Button = styled.button`
   border: none;
   padding: 0.5rem 0.75rem;
   font-size: 13px;
-  transition: all ease-in-out 0.5s;
-  :hover {
-    background: lightgrey;
-    color: purple;
-  }
 `;
