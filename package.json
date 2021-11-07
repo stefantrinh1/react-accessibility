@@ -27,22 +27,22 @@
   "homepage": "https://react-accessibility-widget.netlify.app",
   "peerDependencies": {
     "react": ">= 16.8",
-    "react-dom": ">= 16.8",
+    "react-dom": ">= 16.8"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.16.0",
+    "@babel/preset-env": "^7.16.0",
     "react-dropdown": "^1.9.2",
     "react-scripts": "4.0.3",
     "react-switch": "^6.0.0",
     "styled-components": "^5.3.3"
   },
-  "dependencies": {},
   "devDependencies": {
-    "@babel/core": "^7.16.0",
-    "@babel/preset-react": "^7.16.0",
-    "@babel/cli": "^7.16.0",
-    "@babel/preset-env": "^7.16.0"
+    "cross-env": "^7.0.3"
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "rm -rf dist && NODE_ENV=production babel src/lib --out-dir dist --copy-files",
+    "build": "cross-env NODE_ENV=production babel src/lib --out-dir dist --copy-files",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

@@ -55,9 +55,9 @@ const Container = _styledComponents.default.div(_templateObject || (_templateObj
 
 const InnerContainer = _styledComponents.default.div(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\n  font-family: 'Roboto', sans-serif;\n"])));
 
-const Button = _styledComponents.default.div(_templateObject3 || (_templateObject3 = _taggedTemplateLiteral(["\n  position: fixed;\n  bottom: 20px;\n  right: 20px;\n  background-color: #0e5eb1;\n  color: white;\n  padding: 10px;\n  border-radius: 500px;\n  border: solid 2px white;\n  z-index: 9998;\n  img {\n    max-width: 60px;\n  }\n"])));
+const Button = _styledComponents.default.div(_templateObject3 || (_templateObject3 = _taggedTemplateLiteral(["\n  position: fixed;\n  bottom: 10px;\n  right: 10px;\n  background-color: #0e5eb1;\n  color: white;\n  padding: 10px;\n  border-radius: 500px;\n  border: solid 2px white;\n  z-index: 9998;\n  img {\n    max-width: 60px;\n  }\n"])));
 
-const WidgetContainer = _styledComponents.default.div(_templateObject4 || (_templateObject4 = _taggedTemplateLiteral(["\n  position: fixed;\n  bottom: 20px;\n  right: 20px;\n  z-index: 9999;\n"])));
+const WidgetContainer = _styledComponents.default.div(_templateObject4 || (_templateObject4 = _taggedTemplateLiteral(["\n  position: fixed;\n  bottom: 10px;\n  right: 10px;\n  z-index: 9999;\n  max-width: 95%;\n"])));
 
 const CloseButton = (0, _styledComponents.default)(_CloseIcon.default)(_templateObject5 || (_templateObject5 = _taggedTemplateLiteral(["\n  position: absolute;\n  top: 0rem;\n  left: 0rem;\n  background-color: white;\n  color: purple;\n  border-radius: 100px;\n  height: 30px;\n  width: 30px;\n  transform: translate(-50%, -50%);\n"])));
 
