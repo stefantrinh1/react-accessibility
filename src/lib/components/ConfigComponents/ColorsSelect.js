@@ -38,6 +38,7 @@ export default function ColorsSelect({ value, onChange, colors }) {
 const ColorsContainer = styled.div`
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 `;
 
 const ColorContainer = styled.div`

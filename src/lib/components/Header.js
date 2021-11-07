@@ -14,7 +14,7 @@ const Container = styled.div`
   h3 {
     color: white;
     padding: 20px 30px;
-    margin: 0rem 0rem 0.25rem;
+    margin: 0rem;
     text-align: center;
   }
 `;

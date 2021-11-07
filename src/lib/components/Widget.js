@@ -20,11 +20,11 @@ export default function Widget() {
         {globalState.widgetOpen && (
           <WidgetContainer>
             <CloseButton onClick={() => dispatch({ type: 'CLOSE_WIDGET' })} />
+            <Header />
             <WidgetBox>
-              <Header />
               <StyleSettings />
-              <Footer />
             </WidgetBox>
+            <Footer />
           </WidgetContainer>
         )}
       </InnerContainer>
@@ -42,8 +42,8 @@ const InnerContainer = styled.div`
 
 const Button = styled.div`
   position: fixed;
-  bottom: 20px;
-  right: 20px;
+  bottom: 10px;
+  right: 10px;
   background-color: #0e5eb1;
   color: white;
   padding: 10px;
@@ -57,33 +57,36 @@ const Button = styled.div`
 
 const WidgetContainer = styled.div`
   position: fixed;
-  bottom: 20px;
-  right: 20px;
+  bottom: 10px;
+  right: 10px;
+  width: calc(100% - 25px);
+  max-height: 450px;
+  max-width: 380px;
+  min-height: 300px;
+  min-width: 280px;
   z-index: 9999;
+  overflow: hidden;
+  border-radius: 10px;
 `;
 
 const CloseButton = styled(CloseIcon)`
   position: absolute;
-  top: 0rem;
-  left: 0rem;
+  top: 0.25rem;
+  right: 0.25rem;
   background-color: white;
   color: purple;
   border-radius: 100px;
   height: 30px;
   width: 30px;
-  transform: translate(-50%, -50%);
+  /* transform: translate(-50%, -50%); */
 `;
 
 const WidgetBox = styled.div`
   background-color: #202020;
-  min-height: 300px;
-  min-width: 280px;
-  height: 400px;
-  max-height: 400px;
-  max-width: 380px;
+  width: 100%;
+  height: 420px;
   overflow-y: scroll;
   overflow-x: hidden;
-  border-radius: 10px;
   color: white;
   ::-webkit-scrollbar {
     width: 10px;

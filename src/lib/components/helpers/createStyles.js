@@ -78,7 +78,9 @@ export default (globalState) => {
             : ''
         }
 
-        ${lineHeight ? `line-height:${1 + lineHeight / 101} !important;` : ''}
+        ${
+          lineHeight ? `line-height:${1.25 + lineHeight / 101} !important;` : ''
+        }
 
         ${
           letterSpacing
