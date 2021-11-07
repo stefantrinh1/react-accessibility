@@ -52,8 +52,8 @@ function Counter(_ref) {
 
 const CounterContainer = _styledComponents.default.div(_templateObject || (_templateObject = _taggedTemplateLiteral(["\n  border-radius: 50px;\n  background: grey;\n  display: flex;\n  width: fit-content;\n  align-items: center;\n  justify-content: center;\n  padding: 0px 8px;\n"])));
 
-const MinusButton = _styledComponents.default.div(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  cursor: pointer;\n  :hover {\n    color: purple;\n  }\n"])));
+const MinusButton = _styledComponents.default.div(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\n  :hover {\n    color: purple;\n  }\n"])));
 
-const PlusButton = _styledComponents.default.div(_templateObject3 || (_templateObject3 = _taggedTemplateLiteral(["\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  cursor: pointer;\n  :hover {\n    color: purple;\n  }\n"])));
+const PlusButton = _styledComponents.default.div(_templateObject3 || (_templateObject3 = _taggedTemplateLiteral(["\n  :hover {\n    color: purple;\n  }\n"])));
 
 const SizeContainer = _styledComponents.default.div(_templateObject4 || (_templateObject4 = _taggedTemplateLiteral(["\n  padding: 0.5rem;\n  background-color: purple;\n  border-radius: 100px;\n  box-shadow: 2px 2px 6px black;\n  margin: 0rem 0.5rem;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  color: white;\n  font-size: 12px;\n  width: 25px;\n"])));
